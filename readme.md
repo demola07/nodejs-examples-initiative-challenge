@@ -1,6 +1,6 @@
 # NodeJS Examples Initiative Challenge
 
-> The NodeJs Examples Initiative is looking for a qualified mentee to join the initiative.
+> ***The NodeJs Examples Initiative is looking for a qualified mentee to join the initiative.**
 
 ### This challenge will test the following
 1.  Your ablilty to write code in nodejs beyond "Hello World"
