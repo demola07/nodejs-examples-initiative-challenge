@@ -19,7 +19,7 @@
 
 ### Using the Express Framework, with three (3) routes consuming an API in the following ways
 
-- The latest version in each relaease line (potential query string for release line)
+- The latest version in each release line (potential query string for release line)
 - The minimum secure version (requires use of semver module)
 - Read package.json and render the dependencies in handlebars
 - Tests
