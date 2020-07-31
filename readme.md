@@ -15,5 +15,26 @@
 
 # The Challenge
 
+*Build an API following the instructions below:*
 
+### Using the Express Framework, with three (3) routes consuming an API in the following ways
+
+- The latest version in each relaease line (potential query string for release line)
+- The minimum secure version (requires use of semver module)
+- Read package.json and render the dependencies in handlebars
+- Tests
+    - Each of the above endpoints should have its own test
+
+**NOTE:**
+   -  Use the API [here](https://nodejs.org/dist/index.json)
+   - Use bent for requests
+   - Use handlebars for templating
+   - Licensed as MIT
+        - In Package.json
+        - License file included
+    
+
+## Instructions: 
+
+How to attempt this challenge
 
