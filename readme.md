@@ -116,22 +116,22 @@
 
   - Each of the above endpoints should have its own test, and each test must be passing like the example below
 
-  ```
-  # should get dependencies
-    ok 1 should contain bent
-    ok 2 should contain express
-    ok 3 should contain hbs
-  # should get minimum secure versions
-    ok 4 v0 version should match
-    ok 5 v4 version should match
-  # should get latest-releases
-    ok 6 v14 version should match
-    ok 7 v13 version should match
-  ```
+```
+# should get dependencies
+  ok 1 should contain bent
+  ok 2 should contain express
+  ok 3 should contain hbs
+# should get minimum secure versions
+  ok 4 v0 version should match
+  ok 5 v4 version should match
+# should get latest-releases
+  ok 6 v14 version should match
+  ok 7 v13 version should match
+```
 
-### Instructions:
+## Instructions:
 
-How to attempt this challenge
+### How to attempt this challenge
 
 1. Create a new repo in your account and note the git url
 2. Clone this repo
