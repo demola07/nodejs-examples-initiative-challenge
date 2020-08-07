@@ -40,9 +40,9 @@
 
   2. `GET - /minimum-secure`
 
-     This will return the minimum secure version for each release line for the API provided
+     This will return the minimum secure version for each release line
 
-     - This wil require the use of the semver module
+     - This will require the use of the semver module
 
      #### Example Response
 
