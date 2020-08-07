@@ -1,26 +1,27 @@
 {
-  "name": "nodejs-examples-initiative-challenge",
-  "version": "1.0.0",
-  "description": "> **The Node.js Examples Initiative is looking for a qualified mentee to join the initiative.**",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/demola07/nodejs-examples-initiative-challenge.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/demola07/nodejs-examples-initiative-challenge/issues"
-  },
-  "homepage": "https://github.com/demola07/nodejs-examples-initiative-challenge#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "nodejs-examples-initiative-challenge",
+	"version": "1.0.0",
+	"description": "> **The Node.js Examples Initiative is looking for a qualified mentee to join the initiative.**",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/demola07/nodejs-examples-initiative-challenge.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/demola07/nodejs-examples-initiative-challenge/issues"
+	},
+	"homepage": "https://github.com/demola07/nodejs-examples-initiative-challenge#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }

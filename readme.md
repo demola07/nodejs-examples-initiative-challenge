@@ -72,7 +72,8 @@
             "modules": "46",
             "lts": "Argon",
             "security": true
-        }
+        } ...
+
      ```
 
   3. `GET - /latest-releases`
@@ -107,13 +108,33 @@
          "modules": "79",
          "lts": false,
          "security": false
-     }
+     } ...
+
      ```
 
 * Tests
 
-  - Each of the above endpoints should have its own test
+  - Each of the above endpoints should have its own test, and each test must be passing like the example below
+
+  ```
+  # should get dependencies
+    ok 1 should contain bent
+    ok 2 should contain express
+    ok 3 should contain hbs
+  # should get latest-releases
+    ok 4 v14 version should match
+    ok 5 v13 version should match
+  # should get minimum secure versions
+    ok 6 v0 version should match
+    ok 7 v4 version should match
+  ```
 
 ### Instructions:
 
 How to attempt this challenge
+
+1. Create a new repo in your account and note the git url
+2. Clone this repo
+3. Solve the challenge
+4. Set your new repo as the origin: `git remote set-url origin ${your repo url}`
+5. Push your solution to your repo
