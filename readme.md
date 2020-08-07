@@ -7,7 +7,7 @@
 1. Write code in Node.js beyond "Hello World"
 2. Write tests
 3. Use Bent to fetched data from an API and serve JSON data
-4. Use Handlebars to serve template files to serve dynamic data
+4. Use Handlebars to serve template files
 5. Add the license to `package.json` and include the license
 6. Follow guidelines and instructions
 
@@ -78,7 +78,7 @@
 
   3. `GET - /latest-releases`
 
-     This will get the latest release version in each release line
+     This will return the latest release version in each release line
 
      #### Example Response
 
@@ -121,12 +121,12 @@
     ok 1 should contain bent
     ok 2 should contain express
     ok 3 should contain hbs
-  # should get latest-releases
-    ok 4 v14 version should match
-    ok 5 v13 version should match
   # should get minimum secure versions
-    ok 6 v0 version should match
-    ok 7 v4 version should match
+    ok 4 v0 version should match
+    ok 5 v4 version should match
+  # should get latest-releases
+    ok 6 v14 version should match
+    ok 7 v13 version should match
   ```
 
 ### Instructions:
