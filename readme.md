@@ -132,7 +132,7 @@
 
   - Each of the above endpoints should have its own tests
   - See the below output for examples
-  - Use the provided `test.js` file to get started
+  - Use the provided `test/index.js` file to get started
 
 ```
 # should get dependencies
