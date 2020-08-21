@@ -130,7 +130,7 @@
 
   Each of the above endpoints should have its own tests. Use the provided `test/index.js` file to get started and see below for example output
 
-  - Test Requirement:
+  - Test Requirements:
 
     - Write tests using `tape`
     - Mock http requests during tests by using `nock` to prevent live requests
