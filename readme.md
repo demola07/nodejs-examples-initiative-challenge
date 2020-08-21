@@ -5,24 +5,22 @@
 ## This challenge will test your ability to:
 
 1. Write code in Node.js beyond "Hello World"
-2. Write tests using `tape`
-3. Use Bent to fetch data from an API and serve JSON data
-4. Use Handlebars to serve template files
-5. Mock HTTP requests during tests
-6. Add the license to `package.json` and include the license
-7. Follow guidelines and instructions
+2. Identify and write useful tests
+3. Fetch data from an API and serve JSON content as response
+4. Render out data using dynamic template files
+5. Add the correct license to your project
+6. Follow guidelines and instructions
 
 ## Requirements:
 
 - Use the API [here](https://nodejs.org/dist/index.json)
 - Licensed as MIT
-  - In Package.json
+  - In `package.json`
   - License file included
 - Use the following packages:
   - `bent` for all requests
   - `semver` for version comparisons and other operations
   - `hbs` to render handlebars templates
-  - `nock` to prevent live requests during tests
 
 ## The Challenge
 
@@ -32,7 +30,7 @@
 
   1. `GET - /dependencies`
 
-     This will retrieve all dependencies from the package.json and render HTML using handlebars.
+     This will retrieve all dependencies from the `package.json` and render HTML using handlebars.
 
      #### Example Response
 
@@ -130,9 +128,12 @@
 
 * Tests
 
-  - Each of the above endpoints should have its own tests
-  - See the below output for examples
-  - Use the provided `test/index.js` file to get started
+  #### Each of the above endpoints should have its own tests. Use the provided `test/index.js` file to get started and see below for example output
+
+  - Requirement:
+
+    - Write tests using `tape`
+    - Mock http requests during tests by using `nock` to prevent live requests during tests
 
 ```
 # should get dependencies
