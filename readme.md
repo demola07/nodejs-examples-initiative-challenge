@@ -128,7 +128,7 @@
 
 * Tests
 
-  Each of the above endpoints should have its own tests. Use the provided `test/index.js` file to get started and see below for example output
+  Each of the above endpoints should have its own tests. Use the provided `test/index.js` file to get started and see below for example output.
 
   - Test Requirements:
 
