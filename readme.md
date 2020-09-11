@@ -15,7 +15,6 @@
 
 - Use the API [here](https://nodejs.org/dist/index.json)
 - Use the MIT `License`
-  - In `package.json`
   - Include the `License` file in the project root
 - Use the following packages:
   - `bent` for all requests
