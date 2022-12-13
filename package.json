@@ -22,6 +22,6 @@
 	},
 	"homepage": "https://github.com/demola07/nodejs-examples-initiative-challenge#readme",
 	"dependencies": {
-		"express": "^4.17.1"
+		"express": "^4.17.3"
 	}
 }
